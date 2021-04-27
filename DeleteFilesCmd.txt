@@ -1,0 +1,3 @@
+takeown /F "F:\awdw" /A /R /D Y
+icacls "F:\awdw" /T /grant administrators:F
+rd /s /q "F:\awdw"
